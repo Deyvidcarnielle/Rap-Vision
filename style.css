@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Shadows+Into+Light&display=swap');
+* {
+    font-family: 'Shadows Into Light', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    width: 100vw;
+    height: 180px;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    margin-left: 30px;
+    width: 370px;
+    height: 120px;
+}
+
+.search-wapper{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 417px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 200px;
+    border: none;
+    background-color: #000000;
+    
+  
+}
+
+.input-wrapper{
+    padding: 8px 22px;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    background-color: #D9D9D9;
+    border-radius: 16px;
+}
+
+.input-wrapper i{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.input-wrapper input{
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 320px;
+}
+
+.input-wrapper input:focus-visible{
+    outline: none;
+}
+
+.btn-one {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 28px;
+    color: #FFF;
+    transition: all 0.3s;
+    position: relative;
+    margin-left: 200px;
+    cursor: pointer;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+  }
+  .btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+  }
+  .btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+  }
+  .btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+  }
+
+  .artistas{
+    width: 100vw;
+    height: 293px;
+    background-color: #b1b1b1;
+  }
+
+  .artistas h1{
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .matue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .matue img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .derek{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .derek img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .major{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .major img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .djonga{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .djonga img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .l7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .l7 img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .sain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .sain img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .generos{
+    background-color: #000000;
+    width: 100vw;
+    height: 250px;
+  }
+
+  .generos h1{
+    color: white;
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .sub-gen{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  .sub-gen img{
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .albuns{
+    width: 100vw;
+    height: 317px;
+    background-color: #b1b1b1;
+  }
+
+  .albuns h1{
+    margin-left: 30px;
+    padding-top: 10px;
+  }
+
+  .albuns h3{
+    color: rgb(231, 231, 231);
+  }
+
+  .sub-albuns{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+
+  .albuns img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .vermais{
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+  .vermais2{
+    margin-top: 40px;
+    cursor: pointer;
+  }
+
+
+  
