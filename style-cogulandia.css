@@ -5,7 +5,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 nav{
@@ -119,63 +118,44 @@ nav img{
     transform: scale(0.1, 1);
   }
 
-  .top{
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin-top: 40px;
-      margin-right: 160px;
-  }
-
   .artista{
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
   }
 
   .artista img{
     width: 250px;
     height: 250px;
-  }
-
-  .matue{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
 
   .artista h2{
-      color: #646464;
-      font-weight: 500;
-      font-size: 20px;
+    font-size: 26px;
+    color: #919191;
   }
 
-  .historia p{
-      width: 470px;
-      height: 66px;
-      text-align: justify;
-      text-indent: 30px;
-      margin-top: 40px;
-  }
-
-  .albuns{
+  .musica{
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    width: 100vw;
+    height: 1800px;
   }
 
-  .albuns img{
-      width: 250px;
-      height: 250px;
-      border-radius: 20px;
-      margin-top: 20px;
+  .letra{
+    width: 435px;
+    height: 1800px;
+    text-align: start;
+    padding-top: 20px;
   }
 
-  .albuns h2{
-      font-weight: 600;
+  .paragrafo{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 400;
   }
 
-  .albuns h3{
-      color: #646464;
-      font-weight: 400;
-  }

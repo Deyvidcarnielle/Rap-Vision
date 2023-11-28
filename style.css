@@ -4,8 +4,11 @@
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
+}
+
+body{
+  
 }
 
 nav{
@@ -119,10 +122,19 @@ nav img{
     transform: scale(0.1, 1);
   }
 
+  .main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .artistas{
-    width: 100vw;
+    width: 1500px;
     height: 333px;
-    background-color: #f3f3f3;
+    
+    background-image: url("assets/background3.webp");
+    background-repeat: no-repeat;
+    background-size: 1500px 333px;
   }
 
   .artistas h1{
@@ -137,7 +149,6 @@ nav img{
     margin-top: 40px;
     margin-left: 90px;
     margin-right: 90px;
-    
   }
 
   .cards a{
@@ -280,7 +291,7 @@ nav img{
 
   .generos{
     background-color: #000000;
-    width: 100vw;
+    width: 1500px;
     height: 250px;
   }
 
@@ -306,10 +317,12 @@ nav img{
   }
 
   .albuns{
-    width: 100vw;
+    width: 1500px;
     height: 317px;
     background-color: #f3f3f3;
-    
+    background-image: url("assets/background3.webp");
+    background-repeat: no-repeat;
+    background-size: 1500px 317px;
   }
 
   .albuns h1{
@@ -318,7 +331,7 @@ nav img{
   }
 
   .albuns h3{
-    color: rgb(150, 150, 150);
+    color: rgba(92, 92, 92, 0.895);
     font-size: 16px;
     font-weight: 400;
   }
@@ -333,6 +346,15 @@ nav img{
     width: 120px;
     height: 120px;
     border-radius: 10px;
+    -webkit-transition: .5s ease; 
+    transition: .5s ease;
+    margin: 6px;
+    cursor: pointer;
+  }
+
+  .albuns img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
   }
 
   .vermais{
@@ -345,5 +367,48 @@ nav img{
     cursor: pointer;
   }
 
+  .lancamentos{
+    background-color: #000000;
+    width: 1500px;
+    height: 350px;
+  }
 
+  .lancamentos h1{
+    color: white;
+    margin-left: 50px;
+    padding-top: 10px;
+  }
+
+  .fundo-lan{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+
+  .lan img{
+    width: 180px;
+    height: 120px;
+    border-radius: 10px;
+  }
+
+  .lan{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .lan h3{
+    color: rgb(171, 171, 171);
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .lan h2{
+    color: white;
+    font-size: 20px;
+  }
+
+  
   
