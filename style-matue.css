@@ -129,9 +129,9 @@ nav img {
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 40px;
-  margin-right: 160px;
+  
 
 }
 
@@ -159,31 +159,18 @@ nav img {
   font-size: 20px;
 }
 
-.historia {
-  border: 2px solid rgb(37, 37, 37);
-  height: 276px;
-  background-color: #c0c0c0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.historia p {
-  width: 470px;
-  height: 66px;
-  text-align: justify;
-  text-indent: 30px;
-  margin-top: 40px;
-
-}
-
 .albuns {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 160px;
 }
 
 .maquina img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px;
+  margin-top: 20px;
   -webkit-transition: .5s ease;
   transition: .5s ease;
   margin: 6px;
@@ -195,13 +182,6 @@ nav img {
   transform: scale(1.1);
 }
 
-.albuns img {
-  width: 250px;
-  height: 250px;
-  border-radius: 20px;
-  margin-top: 20px;
-}
-
 .albuns h2 {
   font-weight: 600;
 }
@@ -211,6 +191,89 @@ nav img {
   font-weight: 400;
 }
 
+
+
+.info{
+  border: 1px solid #646464;
+  width: 270px;
+  margin-right: 50px;
+}
+
+.info h1{
+  border: 2px solid #646464;
+  font-size: 20px;
+  text-align: center;
+  background-color: #646464;
+  color: #f3f3f3;
+}
+
+.info h2{
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.historia {
+  border: 2px solid rgb(37, 37, 37);
+  height: 600px;
+  background-color: #c0c0c0;
+  padding-left: 60px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 20px;
+}
+
+.historia p {
+  width: 1350px;
+  height: 90px;
+  text-align: justify;
+  text-indent: 30px;
+  margin-top: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .musicas {
   padding-bottom: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.musicas a{
+  text-decoration: none;
+  color: black;
+}
+
+a:visited{
+  text-decoration: none;
+}
+
+.musicas h1{
+  margin-left: 50px;
+  padding-top: 30px;
+}
+
+ul{
+  width: 550px;
+  margin-left: 40px;
+  list-style-type: decimal;
+  text-indent: 2px;
+}
+
+.musicas h2{
+  margin-top: 30px;
+  color: #9c9c9c;
+}
+
+li{
+  margin-top: 15px;
+  cursor: pointer;
 }
