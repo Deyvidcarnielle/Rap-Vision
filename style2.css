@@ -11,7 +11,7 @@ body {}
 
 nav {
   background-color: black;
-  width: 1510px;
+  width: 100vw;
   height: 180px;
   display: flex;
   align-items: center;
