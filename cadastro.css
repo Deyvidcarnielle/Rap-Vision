@@ -8,7 +8,7 @@
 
 main{
     width: 100vw;
-    height: 100vh;
+    height: 120vh;
     display: flex;
     align-items: center; 
     background-color: #141414;
@@ -95,7 +95,7 @@ form{
     border: 1px solid rgba(70, 70, 70, 0.815);
     border-radius: 8px;
     width: 500px;
-    height: 300px;
+    height: 420px;
 
 }
 
@@ -114,18 +114,6 @@ form{
     align-items: center;
     color: #FFFFFF;
     
-}
-
-.es{
-
-    width: 130px;
-    height: 25px;
-    align-items: center;
-    justify-items: center;
-    margin-top: 30px;
-    margin-left: 180px;
-
-
 }
 
 .textfield label{
@@ -177,7 +165,7 @@ a{
 .listfooter{
 
     color: #c0c0c0;
-    margin-top: 40px;
+    margin-top: 50px;
     font-size: 10px;
     font-weight: 100;
 

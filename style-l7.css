@@ -113,7 +113,7 @@ nav img {
   height: 250px;
 }
 
-.matue {
+.l7 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -133,9 +133,10 @@ nav img {
   margin-left: 160px;
 }
 
-.maquina img {
-  width: 250px;
-  height: 250px;
+
+.meespera img {
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   margin-top: 20px;
   -webkit-transition: .5s ease;
@@ -144,7 +145,7 @@ nav img {
   cursor: pointer;
 }
 
-.maquina img:hover {
+.meespera img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -158,23 +159,13 @@ nav img {
   font-weight: 400;
 }
 
-.tocadas h2{
-  cursor: pointer;
-}
 
-.tocadas a{
-  text-decoration: none;
-  color: #646464;
-}
-
-.tocadas a:visited{
-  text-decoration: none;
-}
 
 .info{
   border: 1px solid #646464;
   width: 270px;
   margin-right: 50px;
+  
 }
 
 .info h1{
@@ -190,11 +181,12 @@ nav img {
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: 400;
+  margin-left: 5px;
 }
 
 .historia {
   border: 2px solid rgb(37, 37, 37);
-  height: 600px;
+  height: 350px;
   background-color: #c0c0c0;
   padding-left: 60px;
   padding-top: 30px;
@@ -219,7 +211,7 @@ nav img {
 }
 
 .musicas {
-  padding-bottom: 100px;
+  padding-bottom: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -257,43 +249,43 @@ li{
 }
 
 footer {
-  background-color: rgb(24, 24, 24);
-  height: 90px;
-
-}
-
-footer .bi {
-  margin-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
-  font-size: 30px;
-}
-
-.sobre {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: serif;
-  color: rgb(232, 232, 232);
-  padding-top: 30px;
-  margin-bottom: 30px;
-}
-
-.sobre h3 {
-  padding-left: 15px;
-  padding-right: 15px;
-  font-size: 14px;
-}
-
-.end {
-  font-family: serif;
-  text-align: center;
-  align-items: center;
-  width: 1500px;
-  height: 30px;
-  font-size: 11px;
-  color: rgb(229, 229, 229);
-  background-color: black;
-  font-family: 12px;
-  margin-top: 30px;
-}
+    background-color: rgb(24, 24, 24);
+    height: 90px;
+  
+  }
+  
+  footer .bi {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+  }
+  
+  .sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: serif;
+    color: rgb(232, 232, 232);
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sobre h3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+  }
+  
+  .end {
+    font-family: serif;
+    text-align: center;
+    align-items: center;
+    width: 1500px;
+    height: 30px;
+    font-size: 11px;
+    color: rgb(229, 229, 229);
+    background-color: black;
+    font-family: 12px;
+    margin-top: 30px;
+  }

@@ -174,7 +174,7 @@ nav img{
     cursor: pointer;
   }
 
-  .mus2{
+  .mus{
     border: 2px solid rgb(128, 128, 128);
     border-radius: 15px;
     width: 800px;
@@ -182,81 +182,13 @@ nav img{
     padding-bottom: 20px;
   }
 
-  .mus2:hover{
+  .mus:hover{
     background-color: #878787;
     color: white;
     cursor: pointer;
   }
 
-  .mus3{
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 15px;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mus3:hover{
-    background-color: #878787;
-    color: white;
-    cursor: pointer;
-  }
-
-  .mus4{
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 15px;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mus4:hover{
-    background-color: #878787;
-    color: white;
-    cursor: pointer;
-  }
-
-  .mus5{
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 15px;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mus5:hover{
-    background-color: #878787;
-    color: white;
-    cursor: pointer;
-  }
-
-  .mus6{
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 15px;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mus6:hover{
-    background-color: #878787;
-    color: white;
-    cursor: pointer;
-  }
-
-  .mus7{
-    border: 2px solid rgb(128, 128, 128);
-    border-radius: 15px;
-    width: 800px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .mus7:hover{
-    background-color: #878787;
-    color: white;
-    cursor: pointer;
-  }
+  
 
   footer {
     background-color: rgb(24, 24, 24);
@@ -299,7 +231,3 @@ nav img{
     font-family: 12px;
     margin-top: 30px;
   }
-
-  
-
- 
