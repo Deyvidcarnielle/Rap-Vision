@@ -159,7 +159,9 @@ nav img {
   font-weight: 400;
 }
 
-
+.tocadas h2{
+    cursor: pointer;
+  }
 
 .info{
   border: 1px solid #646464;
