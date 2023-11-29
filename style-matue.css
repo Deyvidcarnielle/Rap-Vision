@@ -195,6 +195,7 @@ nav img {
 .historia {
   border: 2px solid rgb(37, 37, 37);
   height: 600px;
+  width: 1500px;
   background-color: #c0c0c0;
   padding-left: 60px;
   padding-top: 30px;
@@ -202,7 +203,8 @@ nav img {
   margin: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: center;
+  margin-left: 200px;
   border-radius: 20px;
 }
 
